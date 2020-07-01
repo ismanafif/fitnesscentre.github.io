@@ -1,1 +1,106 @@
+body{
+    margin:0;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(210, 0, 46, 1);
+    position: fixed;
+}
+
+.logo{
+    width: auto;
+    height: 55px;
+    padding: 5px 40px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    overflow: hidden;
+    height: 65px;
+    margin-right: 30px;
+}
+
+.header-right a{
+    float: right;
+    text-align: center;
+    line-height: 65px;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    color: #FFCC01;
+    padding: 0px 10px;
+    
+}
+
+.header-right a:hover {
+    background-color:rgba(255, 204, 1, 0.8);
+    transition: all 0.5s;
+    color:#D2002E;
+  }
+
+
+footer{
+    height: 200px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 20px;
+}
+
+.footer-content{
+    margin: 0px 20px;
+}
+
+.section-title{
+    float: left;
+    width: 25%;
+}
+
+.section-title h3{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn-wrapper ul{
+    padding-inline-start: 0px;
+}
+
+.btn-wrapper li{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    padding: 5px 0px;
+}
+
+.btn-wrapper a{
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+}
+
+.copyright{
+    text-align: center;
+    color: rgba(192, 192, 192, 05);
+    font-size: smaller;
+}
+
+.main{
+      height: 300px;
+}
+
 
