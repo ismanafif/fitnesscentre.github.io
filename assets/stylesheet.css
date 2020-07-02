@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin:0;
 }
@@ -7,6 +13,7 @@ header{
     width: 100%;
     background-color: rgba(210, 0, 46, 1);
     position: fixed;
+    top: 0px;
 }
 
 .logo{
@@ -99,8 +106,14 @@ footer{
     font-size: smaller;
 }
 
-.main{
-      height: 300px;
+/* Main section */
+main {
+    padding-top: 10vh;
+    height: 100vh;
 }
 
+main .container {
+    display: flex;
+}
 
+/* Second main section */
