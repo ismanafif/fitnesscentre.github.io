@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/** Header & Footer**/
 
 body{
     margin:0;
@@ -10,32 +11,32 @@ body{
 }
 
 header{
-    height: 65px;
     width: 100%;
     background-color: rgba(210, 0, 46, 1);
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 .logo{
     width: auto;
-    height: 55px;
+    height: 65px;
     padding: 5px 40px;
-}
-
-.header-left{
     float: left;
 }
 
 .header-right{
     float: right;
-    overflow: hidden;
     height: 65px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
-.header-right a{
-    float: right;
+.header a.signup {
+    background-color:rgba(255, 204, 1, 0.8);
+    color:#D2002E;
+  }
+
+header a{
+    float: left;
     text-align: center;
     line-height: 65px;
     display: block;
@@ -46,41 +47,43 @@ header{
     font-size: large;
     color: #FFCC01;
     padding: 0px 10px;
-    
 }
 
 .header-right a:hover {
-    background-color:rgba(255, 204, 1, 0.8);
-    transition: all 0.5s;
+    background-color:rgba(255, 204, 1, 1);
+    transition: all 0.2s;
     color:#D2002E;
-  }
-
-
-footer{
-    height: 200px;
-    background-color: #000;
-    color: #fff;
-    font-size: 14px;
-    padding: 20px 20px;
 }
 
-.footer-content{
+/** Footer **/
+ 
+footer{
+    padding: 20px 20px;
+    background-color: black;
+}
+
+.footer-top{
     margin: 0px 20px;
 }
 
-.section-title{
+.footer-bottom p{
+    color: rgba(192, 192, 192, 05);
+    font-size: smaller;
+    text-align: center;
+    z-index: 10;
+}
+
+.section-item{
     float: left;
     width: 25%;
 }
 
 .section-title h3{
+    color: white;
     font-family: sans-serif;
     font-style: italic;
     font-weight: bold;
-}
-
-.btn-wrapper ul{
-    padding-inline-start: 0px;
+    padding-bottom: 15px;
 }
 
 .btn-wrapper li{
@@ -89,8 +92,12 @@ footer{
     font-size: medium;
     font-style: italic;
     text-decoration: none;
-    color: rgb(192, 192, 192);
-    padding: 5px 0px;
+    color: rgb(192, 192, 192);  
+
+}
+
+.btn-wrapper a:hover{
+    font-weight: bolder;
 }
 
 .btn-wrapper a{
@@ -99,12 +106,6 @@ footer{
     font-style: italic;
     text-decoration: none;
     color: rgb(192, 192, 192);
-}
-
-.copyright{
-    text-align: center;
-    color: rgba(192, 192, 192, 05);
-    font-size: smaller;
 }
 
 /* Main section */
