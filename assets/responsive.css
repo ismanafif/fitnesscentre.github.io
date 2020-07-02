@@ -1,1 +1,42 @@
+@media all and (max-width: 670px) {
+ 
+ /** Header & Footer*/
+ header a{
+  float: none;
+  display: block;
+  text-align: left;
+  background-color: rgba(210, 0, 46,1);
+ }
+ .header-right {
+  float: none;
+  width: 100%;
+ }
+ .section-item{
+  float: left;
+  width: 100%;
+}
 
+.header-right a:hover {
+ background-color:rgba(255, 204, 1, 1);
+ transition: all 0.2s;
+ color:#D2002E;
+}
+
+.btn-wrapper li{
+ display: inline-block;
+ padding: 5px;
+}
+
+footer{
+ text-align: center;
+}
+
+.section-title h3{
+ padding: 5px;
+}
+
+.footer-bottom p{
+ font-size: x-small;
+}
+/* ----- */
+}
