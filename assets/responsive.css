@@ -40,3 +40,13 @@ footer{
 }
 /* ----- */
 }
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+    margin-bottom:25px;
+  }
+  .pricelist {
+  padding:10px 17%;
+  }
+}
